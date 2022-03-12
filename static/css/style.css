@@ -24,7 +24,7 @@ p {
 }
 
 #main-btn {
-    border: rgb(255, 175, 151) solid 1px;
+    border:#00008B solid 1px;
     font-family: "Montserrat", sans-serif;
     font-size: 0.85rem;
     padding: 0.6rem 1.8rem;
@@ -33,7 +33,7 @@ p {
 
 #main-btn:focus,
 #main-btn:hover {
-    background-color: rgb(255, 164, 128);
+    background-color: #00008B;
     color: #fffefd;
 }
 
@@ -55,14 +55,14 @@ h1 {
 #name {
     font-size: 5.3rem;
     margin-top: 3rem;
-    color: rgb(255, 164, 128);
+    color: #00008B;
     font-weight: 500;
     padding-bottom: 0.8rem;
 }
 
 #pronounce {
     font-size: 1.8rem;
-    color: rgb(255, 164, 128);
+    color: rgba(26, 26, 241, 0.459);
     margin-bottom: 1.5rem;
     font-weight: 500;
     font-weight: lighter;
@@ -110,7 +110,7 @@ h1 {
 .navbar-nav > li > a:hover,
 .navbar-nav > .active > a:focus,
 .navbar-nav > .active > a:hover {
-    color: rgb(255, 164, 128) !important;
+    color:#00008B !important;
     font-weight: bold;
 }
 
@@ -181,7 +181,7 @@ h1 {
 }
 
 .line {
-    border-top: 2px solid rgb(255, 192, 173);
+    border-top: 2px solid #00008B;
 }
 
 h2 {
@@ -198,7 +198,7 @@ h3 {
 }
 
 i {
-    color: rgb(255, 164, 128);
+    color:#00008B;
 }
 
 /* Profile Photo */
@@ -282,11 +282,11 @@ hr {
 #button-3,
 #button-4 {
     text-decoration: none;
-    border: rgb(255, 175, 151) solid 1px;
+    border:#00008B solid 1px;
     font-family: "Montserrat", sans-serif;
     font-size: 0.85rem;
     border-radius: 5px;
-    color: rgb(255, 175, 151);
+    color: #00008B;
     padding: 0.5rem 1.5rem;
 }
 
@@ -294,7 +294,7 @@ hr {
 #button-2:hover,
 #button-3:hover,
 #button-4:hover {
-    background-color: rgb(255, 164, 128);
+    background-color:#00008B ;
     color: #fffefd;
 }
 
@@ -369,7 +369,7 @@ hr {
             rgba(251, 210, 193, 0.1),
             rgba(251, 210, 193, 0.1)
         ),
-        url("../images/projects-background.jpg");
+        url("../images/texture-1668079.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #423e3a;
@@ -691,7 +691,7 @@ hr {
 }
 
 a {
-    color: rgb(255, 178, 152);
+    color:#00008B ;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     padding: 0rem 1rem;
     text-decoration: none;
@@ -741,8 +741,10 @@ a:hover {
             rgba(255, 255, 255, 0.8),
             rgba(255, 255, 255, 0.8)
         ),
-        url("../images/background.jpg") center center fixed;
+        url("../images/main-back.jpg") center center fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
     height: 100%;
     margin: 0;
     min-height: 510px;
@@ -766,7 +768,9 @@ a:hover {
                 rgba(255, 255, 255, 0.8),
                 rgba(255, 255, 255, 0.8)
             ),
-            url("../images/background.jpg") center;
+            url("../images/main-back.jpg") center;
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0%;
     }
 }
